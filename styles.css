@@ -1,0 +1,272 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.firstPage {
+    height: 100vh;
+}
+
+
+
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    filter: brightness(70%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* animation:  1s ease-out infinite; */
+
+}
+
+
+
+
+
+.navbarOne {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    /* box-shadow: #000000 0px 0px 1px; */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+
+
+.Websitelogo {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255,230,50,); */
+}
+.Websitelogo img {
+    width: 90%;
+    height: 90%;
+}
+
+
+
+
+
+
+.serachbar {
+    width: 60vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.serachbar input {
+    width: 90%;
+    margin: 0;
+    font-size: medium;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.serachbar input::placeholder {
+    color: rgb(0, 0, 0, 0.5);
+}
+.serachbar img {
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+
+
+
+
+
+.navOne {
+    width: 15vw;
+}
+.navOne ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.navbarOne .navOne a {
+    text-decoration: none;
+    color: white;
+}
+.navbarOne .navOne ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+
+
+.LoginButton {
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.LoginButton button {
+    width: 100%;
+    height: 60%;
+    border-radius: 100px ;
+    border: black 2px solid;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(255,230,50);
+}
+
+
+
+.homeText {
+    /* margin-block-start: 0px;
+    margin-block-end: 0px; */
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    position: absolute;
+    font-family: GT Super Display;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: -.02rem;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.homeText h1 {
+    margin: 0;
+}
+
+
+
+.Getstarted {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 164px;
+    height: 64px;
+    border-radius: 100px;
+    background-color: rgb(255,230,50);
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Getstarted button {
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.navbarTwo {
+    z-index: 1;
+    top: 60px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
+    /* box-shadow: #000000 0px 0px 1px; */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
+.navbarTwo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+}
+.navbarTwo a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+.threeSections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);                                                     
+}
+.threeSections .section {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border: #000000 1px solid;
+    border-radius: 10px;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.threeSections .section a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+.SecondPage {
+    height: 100vh;
+    background-color: rgba(50, 139, 255, 0.619);
+}
