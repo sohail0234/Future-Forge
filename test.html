@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>ForgotPassword</title>
+	<link href="project.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<div id="header">
+		<div id="htext">Forgot Password</div>
+	</div>
+	<div class ="forgotpassword-container">
+		<h2>Log In</h2>
+		<form action="ForgotPasswordSubmit.jsp" method="post">	
+			<div>	
+			<label for="email">Email:</label>
+			<input type="email" name="txtemail" id="Email" name="email" required>
+			</div>
+			<div>	
+			<label for="new password">New Password:</label>
+			<input type="password" name="txtnewpass" id="New Password" name="password" required>
+			</div>
+			<div>	
+			<label for="Confirm Password">Confirm Password:</label>
+			<input type="password" name="txtconfpass" id="Confirm Password" name="confirm password" required>
+			</div>
+			<button type="Submit">Log In</button>
+		</form>
+		<a href="LogIn.html">Back to Login</a>
+	</div>
+</body>
+</html> 
