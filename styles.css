@@ -196,7 +196,11 @@ body {
 
 .SecondPage {
     height: 100vh;
-    background-color: rgba(50, 139, 255, 0.619);
+    /* background-color: rgba(50, 139, 255, 0.619); */
+    /* background-color: rgb(255,230,50);    */
+}
+.content .content1 {
+    height: 100vh;
 }
 .content .content1 img {
     width: 100%;
@@ -215,4 +219,10 @@ body {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
+}
+
+
+.ThirdPage {
+    height: 100vh;
+    background-color: rgba(255, 50, 204, 0.619);
 }
