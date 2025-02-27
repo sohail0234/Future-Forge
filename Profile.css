@@ -32,3 +32,21 @@ body {
     margin: 5px 0;
     color: #666;
 }
+#skills {
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    justify-self: center;
+    max-height: 30px;
+    border-radius: 16px;
+    padding: 5px;
+}
+.stream , .CollegeName , .branch , #interests {
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    justify-self: center;
+    max-height: 30px;
+    border-radius: 16px;
+    padding: 5px
+}
