@@ -50,3 +50,16 @@ body {
     border-radius: 16px;
     padding: 5px
 }
+button {
+    margin-top: 20px;
+    display: flex;
+    width: 65%;
+    justify-self: center;
+    border-radius: 16px;
+    padding: 5px;
+    justify-content: center;
+
+    &:hover {
+        background: linear-gradient(to right, #ffe632, #68b5f4);
+    }
+}
