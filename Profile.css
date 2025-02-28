@@ -41,7 +41,7 @@ body {
     border-radius: 16px;
     padding: 5px;
 }
-.stream , .CollegeName , .branch , #interests {
+.courses_viewed , #name , .goals , #interests {
     margin-top: 20px;
     display: flex;
     width: 90%;
