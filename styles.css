@@ -258,13 +258,18 @@ body {
     width: 100%;
 }
 
-
 .footer {
+    height: 40vh;
+    align-content: center;
+}
+
+.links {
     display: flex;
     gap: 20px;
     justify-content: center;
+    align-items: center;
 }
-.footer a {
+.links a {
     color: rgb(0, 0, 0);
     margin: 20px 10px;
     text-decoration: none;
@@ -275,4 +280,8 @@ body {
 .footer a:hover {
     background: linear-gradient(to left, #ffe632, #68b5f4); 
 
+}
+
+.footer {
+    text-align: center;
 }
