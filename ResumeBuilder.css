@@ -17,7 +17,8 @@ body {
     padding: 20px;
 }
 #maker {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #53BDEB;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -31,7 +32,8 @@ body {
 
 a {
     color: #000000;
-    text-decoration: underline 2px #ffc0cb ;
+    text-decoration: none;
+    font-weight: bold;
 }
 .footer a {
     text-decoration: none;
