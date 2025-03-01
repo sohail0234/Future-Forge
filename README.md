@@ -1,1 +1,1 @@
-Work in Progress 👉👈
+The Intelligent Course & Career Path Advisor leverages AI and data science to provide personalized career and course recommendations. By bridging the gap between education and industry needs, it helps users make informed decisions. With future enhancements like real-time job matching and AI-driven counseling, the system aims to become a comprehensive career guidance platform.
