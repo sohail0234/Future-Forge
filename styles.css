@@ -97,6 +97,11 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.material-symbols-outlined {
+    color: #ffffff;
+}
+
 .LoginButton {
     width: 5vw;
 }
@@ -264,7 +269,7 @@ body {
 .content .content2 a {
     z-index: 1;
     position: absolute;
-    top: 250%;
+    top: 255%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
